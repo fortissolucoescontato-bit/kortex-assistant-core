@@ -2,7 +2,7 @@ import { aiAdapter, ChatMessage } from "./model-adapter";
 import { memoryManager } from "./memory-manager";
 import { skillEngine } from "./skill-engine";
 import { observerAgent } from "./observer-agent";
-import { moltBookAdapter } from "./moltbook-adapter";
+import { observerAgent } from "./observer-agent";
 import { ShellTool } from "./shell-tool";
 import * as path from "path";
 import * as fs from "fs";
@@ -10,7 +10,7 @@ import * as fs from "fs";
 const shell = new ShellTool();
 
 export interface KortexAction {
-    type: "chat" | "skill" | "memory" | "system" | "moltbook" | "agent";
+    type: "chat" | "skill" | "memory" | "system" | "agent";
     payload: any;
     reasoning: string;
 }
@@ -43,13 +43,6 @@ export class KortexCore {
             };
         }
 
-        if (userInput.trim().toLowerCase() === "@moltbook") {
-            return {
-                type: "moltbook",
-                payload: { action: "feed" },
-                reasoning: "Usuário solicitou ver as últimas novidades da rede social de IAs."
-            };
-        }
 
         // 1. Buscar memórias relevantes
         let memoryContext = "";
@@ -85,7 +78,7 @@ export class KortexCore {
                     
                     Retorne JSON:
                     {
-                        "type": "chat" | "skill" | "memory" | "system" | "moltbook" | "agent",
+                        "type": "chat" | "skill" | "memory" | "system" | "agent",
                         "payload": { ... },
                         "reasoning": "Sua explicação"
                     }
@@ -284,9 +277,6 @@ export class KortexCore {
                         return res.text;
                     }
                     return "Skill não encontrada.";
-                case "moltbook":
-                    // ... manter lógica original resumida ...
-                    return "Interagindo com Moltbook...";
                 default:
                     return "Tipo de ação não suportado.";
             }
