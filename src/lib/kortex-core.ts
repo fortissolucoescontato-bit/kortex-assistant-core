@@ -22,6 +22,7 @@ export interface KortexAction {
  */
 export class KortexCore {
     private skillsPath = path.join(process.cwd(), "skills");
+    private nexusUrl = "https://nexus-arcade-hub.vercel.app/";
     private maxSteps = 5;
 
     constructor() {
