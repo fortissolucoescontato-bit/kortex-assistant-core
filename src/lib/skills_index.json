@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Project Templates",
+    "description": "Sem descrição",
+    "category": "app-builder",
+    "path": "app-builder/templates",
+    "version": "1.0.0"
+  },
+  {
+    "name": "2D Game Development",
+    "description": "Sem descrição",
+    "category": "game-development",
+    "path": "game-development/2d-games",
+    "version": "1.0.0"
+  },
+  {
+    "name": "3D Game Development",
+    "description": "Sem descrição",
+    "category": "game-development",
+    "path": "game-development/3d-games",
+    "version": "1.0.0"
+  },
+  {
+    "name": "Game Art Principles",
+    "description": "Sem descrição",
+    "category": "game-development",
+    "path": "game-development/game-art",
+    "version": "1.0.0"
+  },
+  {
+    "name": "Game Audio Principles",
+    "description": "Sem descrição",
+    "category": "game-development",
+    "path": "game-development/game-audio",
+    "version": "1.0.0"
+  },
+  {
+    "name": "Game Design Principles",
+    "description": "Sem descrição",
+    "category": "game-development",
+    "path": "game-development/game-design",
+    "version": "1.0.0"
+  },
+  {
+    "name": "Mobile Game Development",
+    "description": "Sem descrição",
+    "category": "game-development",
+    "path": "game-development/mobile-games",
+    "version": "1.0.0"
+  },
+  {
+    "name": "Multiplayer Game Development",
+    "description": "Sem descrição",
+    "category": "game-development",
+    "path": "game-development/multiplayer",
+    "version": "1.0.0"
+  },
+  {
+    "name": "PC/Console Game Development",
+    "description": "Sem descrição",
+    "category": "game-development",
+    "path": "game-development/pc-games",
+    "version": "1.0.0"
+  },
+  {
+    "name": "VR/AR Development",
+    "description": "Sem descrição",
+    "category": "game-development",
+    "path": "game-development/vr-ar",
+    "version": "1.0.0"
+  },
+  {
+    "name": "Web Browser Game Development",
+    "description": "Sem descrição",
+    "category": "game-development",
+    "path": "game-development/web-games",
+    "version": "1.0.0"
+  },
+  {
+    "name": "Skill: GameDesigner 🎮",
+    "description": "Especialista em criação de jogos autônomos para o Nexus Arcade Hub.",
+    "category": "games",
+    "path": "games/GameDesigner",
+    "version": "1.0.0"
+  }
+]
