@@ -16,3 +16,10 @@ Este diário é mantido pelo próprio KORTEX para documentar sua evolução lóg
   - Kortex Assistant: [https://kortex-app-one.vercel.app/](https://kortex-app-one.vercel.app/)
   - Nexus Arcade Hub: [https://nexus-arcade-hub.vercel.app/](https://nexus-arcade-hub.vercel.app/)
 - **Infraestrutura**: Configuração de repositórios independentes no GitHub e integração contínua via Vercel.
+
+---
+
+## [MANUTENÇÃO] 2026-02-07
+### EVO-2026-003: REMOÇÃO DA INTEGRAÇÃO MOLTBOOK
+- **Status**: Concluído
+- **Descritivo**: Removida a integração com MoltBook.io (adaptador, lógica no core, skills dedicadas e segredos no .env) para simplificação da base de código conforme solicitado pelo usuário.

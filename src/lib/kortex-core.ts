@@ -2,7 +2,6 @@ import { aiAdapter, ChatMessage } from "./model-adapter";
 import { memoryManager } from "./memory-manager";
 import { skillEngine } from "./skill-engine";
 import { observerAgent } from "./observer-agent";
-import { observerAgent } from "./observer-agent";
 import { ShellTool } from "./shell-tool";
 import * as path from "path";
 import * as fs from "fs";
